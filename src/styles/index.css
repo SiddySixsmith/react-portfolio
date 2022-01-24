@@ -1,0 +1,154 @@
+:root {
+  --primary: black;
+  --secondary: dodgerblue;
+  --light: white;
+  --back: grey;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+li {
+  width: 25%;
+}
+
+header {
+  padding: 15px 6% 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--primary);
+  box-shadow: 0 5px 35px rgb(28, 28, 32);
+  background-size: cover;
+  margin-bottom: 5%;
+  height: 115px;
+  color: var(--light);
+  opacity: 90%;
+}
+
+h1 {
+  margin-left: 10%;
+  position: relative;
+  top: 75%;
+  color: var(--secondary);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+#contact {
+  display: flex;
+  margin: 15%;
+}
+
+#contact {
+  justify-content: center;
+}
+
+.project {
+  justify-content: center;
+  text-align: center;
+}
+
+.resume {
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.resume-list {
+  font-weight: bolder;
+  list-style-type: none;
+  justify-items: center;
+  position: relative;
+  left: 120px;
+  margin-bottom: 20px;
+}
+#resumeBtn {
+  position: relative;
+  left: 100px;
+  top: 30px;
+  background-color: black;
+  width: 200px;
+  height: 50px;
+}
+#resumeLink {
+  text-decoration: none;
+  color: white;
+}
+
+#resumeLink :hover {
+  color: var(--secondary);
+}
+
+h6 {
+  color: var(--secondary);
+}
+
+.card {
+  margin-top: 60px;
+  height: 200px;
+  box-shadow: 0 5px 35px rgb(28, 28, 32);
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    height: 150px;
+  }
+  h1 {
+    top: 40px;
+    right: 20%;
+  }
+
+  li {
+    position: relative;
+    left: 300%;
+    top: 40px;
+  }
+  .resume {
+    text-decoration: none;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .resume-list {
+    font-weight: bolder;
+    list-style-type: none;
+    justify-items: center;
+    position: relative;
+    left: 36%;
+  }
+  #resumeBtn {
+    position: relative;
+    left: 43%;
+    top: 100px;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+  }
+  #resumeLink {
+    text-decoration: none;
+    color: white;
+  }
+
+  #resumeLink :hover {
+    color: var(--secondary);
+  }
+}
